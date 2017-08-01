@@ -1,0 +1,112 @@
+body {
+	height: 100%;
+	margin: 0;
+}
+
+header {
+	background: white;
+	color: grey;
+	padding: 20px;
+	display: inline-block;
+	font-family: helvetica, times, serif;
+	font-size: 18px;
+}
+
+#hi	{
+	background: #5AB58A;
+	color: white;
+	padding: 20px;
+	display: inline-block;
+	font-family: helvetica, times, serif;
+	font-size: 22px;
+}
+
+#About, #Portfolio, #Contact {
+	display: inline-block;
+	border: solid grey 0.5px;
+	padding: 20px;
+	font-size: 15px;
+}
+
+h1 {
+	font-family: helvetica, times, serif;
+	font-size: 18px;
+}
+
+p {
+	clear: right;
+	padding-left: 10px;
+
+}
+
+#my-photo {
+	float: left;
+	margin: 10px;
+
+}
+
+#about-title {
+	color: #5AB58A;
+	margin: 0;
+}
+
+.wrapper {
+	min-height: 100%;
+	margin-bottom: -50px;
+}
+
+.container {
+	background: #BBBCBF;
+	color: black;
+	padding: 30px;
+	font-family: helvetica, times, serif;
+	font-size: 15px;
+	position: relative;
+}
+
+.about-me {
+	background: white;
+	color: black;
+	padding: 20px;
+	font-family: helvetica, times, serif;
+	font-size: 15px;
+	position: relative;
+	width: 66.6%;
+	display:inline-block;
+}
+
+.connect {
+	background: white;
+	color: black;
+	border: black solid 1px;
+	padding: 20px;
+	font-family: helvetica, times, serif;
+	float: right;
+	width: 33.3%%;
+	display:inline-block;
+}
+
+.social {
+	text-align: center;
+}
+
+.clearfix::after {
+  content: “”;
+  display: block;
+  clear: both;
+}
+
+.footer, .push {
+	height: 50px;
+}
+
+.footer, footer {
+	background: #5AB58A;
+	color: white;
+	padding: 40px;
+	text-align: center;
+	font-family: helvetica, times, serif;
+	font-size: 12px
+	height: 50px;
+	margin-bottom: -50px;
+}
