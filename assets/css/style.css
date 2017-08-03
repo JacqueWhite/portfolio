@@ -1,36 +1,36 @@
 body {
-	height: 100%;
 	margin: 0;
 	padding: 0;
-	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background: url(/images/"knitting250px.png");
 }
 
 header {
 	background: #ffffff;
 	color: grey;
 	padding: 0px;
-	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-family: 'Georgia', "Times, Times New Roman", serif;
 	font-size: 18px;
-	border: #cccccc solid 1px;
-}
+	border: #cccccc;
+}	
 
 #hi	{
-	background: #5AB58A;
+	background: #4aaaa5;
 	color: white;
 	padding: 20px;
 	display: inline-block;
 	font-size: 22px;
+	border: #cccccc;
 }
 
 #About, #Portfolio, #Contact {
-	border: solid grey 0.5px;
 	padding: 20px;
-	font-size: 15px;
 	float: right;
 }
 
 h1 {
 	font-size: 18px;
+	font-family: 'Georgia', Times, "Times New Roman", serif;
 }
 
 p {
@@ -46,20 +46,14 @@ p {
 }
 
 #about-title {
-	color: #5AB58A;
+	color: #4aaaa5;
 	margin: 0;
-}
-
-.wrapper {
-	min-height: 100%;
-	margin-bottom: -50px;
+	font-family: 'Georgia', Times, "Times New Roman", serif;
 }
 
 .container {
-	background: #BBBCBF;
-	color: black;
-	padding: 30px;
-	font-family: helvetica, times, serif;
+	background: #ffffff;
+	height: 100%;
 	font-size: 15px;
 	position: relative;
 	border: #dddddd solid 1px;
@@ -69,22 +63,24 @@ p {
 	background: white;
 	color: black;
 	padding: 20px;
-	font-family: helvetica, times, serif;
+	margin: 20px;
+	float: left;
 	font-size: 15px;
 	position: relative;
 	width: 66.6%;
 	display:inline-block;
+	border: #cccccc solid 1px;
 }
 
 .connect {
 	background: white;
 	color: black;
-	border: black solid 1px;
 	padding: 20px;
-	font-family: helvetica, times, serif;
 	float: right;
 	width: 33.3%%;
 	display:inline-block;
+	position: relative;
+	border: #cccccc solid 1px;
 }
 
 .social {
@@ -97,20 +93,15 @@ p {
   clear: both;
 }
 
-.stylebar {
-	background: red;
-	height: 40px;
-	width: 100px;
-	border: black solid 1px;
-}
-
 footer {
 	background: #666666;
 	color: white;
+	border-top: solid 8px #4aaaa5;
 	padding: 30px;
 	text-align: center;
-	font-size: 12px
-	height: 50px;
-	position: fixed;
+	font-size: 12px;
+	position: absolute;
 	bottom: 0;
+	width: 100%;
+	margin-top: 30px;
 }
