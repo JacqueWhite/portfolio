@@ -4,52 +4,92 @@
 	<head>
 	<meta charset="UTF-8">
 	<title>About | Jacqueline White</title>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	</head>
 
 	<body>
 
-	<header id="masthead">
-		<div class="container">
-		<a href="index.html" id="logo">Jacqueline White</a>
-		<nav>
-			<a href="index.html">About</a>
-			<a href="assets/portfolio.html">Portfolio</a>
-			<a href="assets/contact.html">Contact</a>
-		</nav>
+	<div class="main-container">
+		
+		<header>
+			<nav class="navbar navbar-default">
+				<div class="container-fluid">
+					<div class="navbar-header">
+					<a class="navbar-brand" href="index.html"">Jacqueline White</a>
+					</div>
+					<ul class="nav navbar-nav">
+						<li class="active">
+							<a href="#">Home</a>
+						</li>
+						<li class="active">
+							<a href="index.html">About</a>
+						</li>
+						<li class="active">
+							<a href="assets/portfolio.html">Portfolio</a>
+						</li>
+						<li class="active">
+							<a href="assets/contact.html">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+
+		<div class="row">
+			<div class="col-sm-9" class="container">
+				<h1>About Me</h1>
+
+				<img src="assets/images/headshot.jpg" class="auth-image" alt="Jacqueline White">
+
+				<p>
+					My name is Jacque White and I am a Junior Full-Stack Developer with a passion for helping people bringing solutions to problems. I have a wide-range of career experiences from health and wellness to HR that help me understand the needs of a variety of clients. 
+					<br>
+					<br>
+					I am currently enrolled in the Coding Bootcamp at UT Austin and will graduate this October.  Topics covered:
+					<br>
+					<br>
+					<strong>Browser Based Technologies:</strong>
+					<br>
+					HTML, CSS, JavaScript, jQuery, Responsive Design, AJAX, RESTful APIs.
+					<br>
+					<br>
+					<strong>Server Side Development: </strong>
+					<br>
+					Node.js, Express.js, React.js, Handlebars.js
+					<br>
+					<br>
+					<strong>Database:</strong>
+					<br>
+					MySQL, MongoDB, Servers, Heroku, Security and Session Storage, User Authentication.
+					<br>
+					<br>
+					<strong>Development Technologies: </strong>
+					<br>
+					Git, Github, Agile methodology.
+				</p>
+
+			</div>
+
+			      <div class="col-sm-3" id="connect">
+			        <h2>Connect with me!</h2>
+			        <br>
+			        <div class="social">
+			            <a href="https://www.linkedin.com/in/jacquelinewhite15/" target=" _blank"><img width="50px" src="assets/images/linkedin.png" class="img-responsive">
+			            </a>
+			            <a href="https://stackoverflow.com/users/8320806/jacqueline-white?tab=profile" target="_blank"><img width="50px" src="assets/images/stkovr.png" class="img-responsive">
+			            </a>
+			            <a href="https://github.com/jacquewhite" target="_blank"><img width="50px" src="assets/images/githb.png" class="img-responsive">
+			            </a>
+			        </div>
+	     		 </div>
+
 		</div>
-	</header>
 
-	<div id="main-container" class="container">
-		<section class="main-section">
-		<h1>About Me</h1>
-
-		<img src="https://scontent-dft4-1.xx.fbcdn.net/v/t1.0-9/16299047_10155048336959225_6432781969887165042_n.jpg?oh=1e7a9a6926e47336a59b476ebecd99a8&oe=59FF906A" class="auth-image" alt="Jacqueline White">
-
-		<p>
-			Hello!  My name is Jacqueline, but you can call me "Jacque".  
-			I am currently taking a 12-week Full-Stack coding bootcamp at UT Austin.  
-			I finish the program at the end of October 2017 and will be looking for an entry level front-end developer position here in Austin, Texas.
-		</p>
-
-		<p>
-			I love organizing, creating, collaborating, and helping people.  I am hoping to combine all of these passions into my career as a developer to acheive great things!  
-			I'd love to connect and see how I might be able to contribute to your projects.  Say hello! 
-		</p>
-
-		</section>
-
-		<section class="sidebar">
-		<div id="connect">
-			<h2>Connect with Me</h2>
-
-      		<a href="https://github.com/JacqueWhite" target="_blank"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
-			<a href="https://www.linkedin.com/in/jacquelinewhite15/" target="_blank"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
-			<a href="https://stackoverflow.com/users/story/8320806" target="_blank"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
-		</div>
-		</section>
 	</div>
 
 	<footer>
@@ -57,6 +97,8 @@
 		Copyright &copy; 2017 Jacqueline White
 		</div>
 	</footer>
+
+	<script type="text/javascript" src="assets/javascript/scripts.js"></script>
 	</body>
 
 	</html>
